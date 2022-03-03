@@ -28,13 +28,10 @@ b_today_local = f"C:/Users/treed/Desktop/운영서버 반영 및 백업(개발�
 b_local = f"C:/Users/treed/Desktop/운영서버 반영 및 백업(개발전)/청정/백업/{b_today}/{today}"
 
 # 서버 접속 정보
-cj = "114.108.177.145"
-cjuser = "root"
-cjpwd = "ytglobal9426"
 
-yt = "114.108.177.62"
-ytuser = "root"
-ytpwd = "**dndnjsthvmxm**"
+yt = ""
+ytuser = ""
+ytpwd = ""
 
 # paramiko 접속
 ssh = paramiko.SSHClient()
