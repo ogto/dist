@@ -74,10 +74,13 @@ def createFolder(directory):
     except OSError:
         print ('Error: Creating directory. ' +  directory)
  
+#서버 접속
 connect_server()
-dist_backup()
-#함수명을 'f2'를 눌러서 수정해주면 사용하는 위치의 함수명도 자동으로 수정
 
+#백업 시작
+dist_backup()
+
+#반영 시작
 dist_reflection()
 # 반영 함수이기 때문에 주의해서 사용해야 함. 
 # 반영 직전까지는 무조건 주석처리 해놓는 것이 원칙.
